@@ -7,7 +7,7 @@ class NoOggyChecker
   {
     for(int i=0;i<names.Count;i++)
     {
-        if(name.StartsWith("oggy")) {
+        if(names.StartsWith("oggy")) {
             Console.WriteLine($"Need to remove {names[i]}!");
             names.Remove(names[i]);
           i=i-1;
